@@ -6,6 +6,8 @@
 # Executar o contêiner a partir da imagem criada
 ```docker run -d -p 8080:8080 avaliacao2```
 
+- Acessar a url após subir o container: http://localhost:8080/demo/index.html
+
 # Explicações:
 - **docker build**: Este é o comando do Docker utilizado para construir uma imagem a partir de um Dockerfile.
 - **-t avaliacao2**: A opção -t é usada para especificar um nome e uma tag para a imagem que está sendo criada. Neste caso, o nome da imagem é avaliacao2.
