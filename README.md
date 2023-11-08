@@ -4,7 +4,7 @@
 ```docker build -t avaliacao2 .```
 
 # Executar o contêiner a partir da imagem criada
-```docker run -d -p 8080:8080 avaliacao2```
+```docker run --name=avaliacao2 -p=9090:8080 mytomcat```
 
 - Acessar a url após subir o container: http://localhost:8080/demo/index.html
 
